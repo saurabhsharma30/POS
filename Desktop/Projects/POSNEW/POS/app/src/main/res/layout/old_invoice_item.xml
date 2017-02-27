@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/text_size_common_10"
+        android:layout_gravity="center_vertical"
+        android:background="@color/background">
+
+
+        <ImageView
+            android:id="@+id/iv_Invoiceicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/order_list_icon"/>
+
+        <TextView
+            android:id="@+id/txt_OrderNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order No :- 258"
+            android:textColor="@color/textcolor"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="@dimen/text_size_common_10"
+            android:textSize="@dimen/text_size_common_16"
+            />
+
+
+        <ImageView
+            android:id="@+id/iv_BillImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/bill_no_icon"/>
+
+        <TextView
+            android:id="@+id/txt_BillNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bill No :- 123"
+            android:textColor="@color/textcolor"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="@dimen/text_size_common_16"
+            />
+
+
+        <ImageView
+            android:id="@+id/iv_PaymentNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/payment_status_icon"/>
+
+        <TextView
+            android:id="@+id/txt_PriceNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: Rs 37"
+            android:textColor="@color/textcolor"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="@dimen/text_size_common_16"
+            />
+
+
+        <TextView
+            android:id="@+id/txt_DateNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_common_16"
+            android:textColor="@color/textyellowcolor"
+            android:layout_marginLeft="10dp"
+            android:text="12 Jan 2017 at 11:30 AM"
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/viewicon"
+            android:layout_marginLeft="@dimen/text_size_common_16"/>
+    </LinearLayout>
+</LinearLayout>

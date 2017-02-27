@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/bg_img">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh"
+        android:layout_margin="20dp"
+        android:background="@drawable/green_button_background"
+        android:id="@+id/btnRestart"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Of available Printers"
+        android:id="@+id/txtList"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/textcolor" />
+
+    <ListView
+        android:id="@+id/lstReceiveData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@color/textcolor">
+    </ListView>
+
+</LinearLayout>
